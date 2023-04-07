@@ -11,7 +11,7 @@ function App() {
       <div className="shape shape2">Uplift</div>
       <div className="shape shape3">Faith</div>
       <div className="shape shape4">Inspire</div>
-    <Card/>
+      <Card/>
     </div>
     </>
   )
