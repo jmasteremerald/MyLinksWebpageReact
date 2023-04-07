@@ -21,7 +21,7 @@ body{
   width : 100%;
   background : url(/background.png) no-repeat;
   background-size : cover;
-  animation: fadeIn 1000ms backwards;
+  animation: fadeUp 1000ms backwards;
   animation-delay: 2s;
 }
 .backgroundImage {
@@ -232,28 +232,28 @@ a{
       translate : 0 2px;
   }
   24%{
-    translate: 0 -29px
+    translate: 0 -36px
   }
   25%, 40% {
-      translate : 0 -27px;
+      translate : 0 -31px;
   }
   44%{
-    translate: 0 -59px;
+    translate: 0 -63px;
   }
   45%, 60% {
-      translate : 0 -55px;
+      translate : 0 -58px;
   }
   64%{
-    translate: 0 -86px;
+    translate: 0 -93px;
   }
   65%, 80% {
-      translate : 0 -83px;
+      translate : 0 -90px;
   }
   84%{
-    translate: 0 -115px;
+    translate: 0 -127px;
   }
   85%, 95% {
-      translate : 0 -110px;
+      translate : 0 -120px;
   }
   100% {
       translate: 0 -160px;

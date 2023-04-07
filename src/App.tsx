@@ -5,7 +5,6 @@ import Card from './components/card'
 function App() {
   return (
     <>
-    <div id="backgroundImage" ></div>
     <div className="backgroundImage">
       <div className="shape shape1">Transform</div>
       <div className="shape shape2">Uplift</div>
@@ -13,6 +12,7 @@ function App() {
       <div className="shape shape4">Inspire</div>
       <Card/>
     </div>
+    <div id="backgroundImage" ></div>
     </>
   )
 }
