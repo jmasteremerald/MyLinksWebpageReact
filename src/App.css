@@ -110,7 +110,7 @@ h1{
   right: 0px;
   animation: wordSlide 13s infinite linear;
   color: #81ae52;
-  animation-delay: 3s
+  animation-delay: 3s;
 }
 #DA{
   color: #7e55c0;
@@ -164,7 +164,8 @@ a{
     width: 220px;
   }
   .titles{
-    animation: wordSlideMobile 13s infinite linear reverse;
+    animation: wordSlideMobile 13s infinite linear;
+    animation-delay: 3s;
   }
   
 }
@@ -178,7 +179,8 @@ a{
     width: 220px;
   }
   .titles{
-    animation: wordSlideMobile 13s infinite linear reverse;
+    animation: wordSlideMobile 13s infinite linear;
+    animation-delay: 3s;
   }
 } 
 @keyframes wordSlide {
@@ -223,19 +225,34 @@ a{
   0% {
       translate : 0px 76px;
   }
-  18%, 7% {
+  4%{
+    translate: 0 5px;
+  }
+  20%, 5% {
       translate : 0 2px;
   }
-  25%, 38% {
+  24%{
+    translate: 0 -29px
+  }
+  25%, 40% {
       translate : 0 -27px;
   }
-  45%, 58% {
+  44%{
+    translate: 0 -59px;
+  }
+  45%, 60% {
       translate : 0 -55px;
   }
-  65%, 78% {
+  64%{
+    translate: 0 -86px;
+  }
+  65%, 80% {
       translate : 0 -83px;
   }
-  85%, 92% {
+  84%{
+    translate: 0 -115px;
+  }
+  85%, 95% {
       translate : 0 -110px;
   }
   100% {
